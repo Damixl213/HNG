@@ -37,7 +37,7 @@
   } 
 body{
   background:var(--color-background) ;
-  padding-left: 60PX;
+  
 }
 
 .cotainer{
@@ -316,6 +316,13 @@ button:hover{
     margin-left: 0px;
     margin-bottom: 0px;
  }
+ .text button {
+  bottom:0px;
+  margin-right: 0;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
 }
 
 @media (max-width: 768px) {
@@ -377,12 +384,20 @@ button:hover{
 
   li {
     margin-top: 10px;
+    
+  }
+  li a{
+    padding-right:24px;
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 480px) {
   .cotainer {
-    margin: 10px;
+    margin: 1px;
+    margin-left: 10pX;
     padding: 0.5rem;
+    padding-left: 20px;
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -420,6 +435,7 @@ button:hover{
 
   li {
     margin-top: 5px;
+    
   }
 
   li a {
