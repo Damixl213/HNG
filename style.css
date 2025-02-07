@@ -230,6 +230,27 @@ li a:active{
   
 }
 
+button{
+  background: var(--color-primary);
+  color: var(--color-dark);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 3px  7px black;
+  position: relative;
+}
+button:hover{
+  box-shadow: none;
+  background: var(--color-dark);
+  color: var(--color-primary);
+}
+
 @media (max-width: 1600px) {
   .cotainer {
     margin: 20px;
@@ -257,6 +278,13 @@ li a:active{
   }
 
   .text p {
+    bottom:550px;
+    margin-right: 0;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+  }
+  .text button {
     bottom:550px;
     margin-right: 0;
     font-size: 16px;
